@@ -1,0 +1,121 @@
+/* ## f4f4f4
+## Rose Gold: #e5cace;
+*/ 
+
+/* 
+Assets:
+lightgrey #f4f4f4
+peach #ff8b67
+teal #cff5f2
+
+http://psd.hackeryou.com/summer/image-1.jpg
+*/
+img {
+  border-radius: 100%;
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+* {
+  box-sizing: border-box;
+}
+
+.about {
+  background-color: #f4f4f4;
+}
+
+.resume {
+  background-color: #debdc2
+}
+header {
+  background-image:
+    url(https://t3.ftcdn.net/jpg/01/75/66/12/240_F_175661204_0ppz3gZhGfbZP9Cuhyo68rVkqbLLSUZI.jpg);
+  height: 100vh;
+  background-size: cover;
+  padding-top: 25vh;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+header, section{
+  text-align: center;
+}
+
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right:0;
+  font-family: "Noto Sans";
+}
+
+h1, h2, a {
+  margin: 0;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+a {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  background-color: #ff8b67;
+  font-family: "Poppins";
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase; 
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  background: #cff5f2;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.month {
+  color: #f4c2c2;
+}
+
+.year {
+  color: #65000B;
+}
+
+.booktitle, .bookgenre {
+  text-align: left
+}
+
+@keyframes blink {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes blink {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes blink {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
